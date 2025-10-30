@@ -22,24 +22,9 @@ A modern, responsive user management application built with React, TypeScript, a
 - npm or yarn
 
 ## 🛠️ Installation
-
-1. Clone the repository or create new React app:
+1. Install dependencies:
 ```bash
-npx create-react-app user-management-app --template typescript
-cd user-management-app
-```
-
-2. Install dependencies:
-```bash
-npm install lucide-react
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-3. Copy all the files from the structure above into your project
-
-4. Install dev dependencies:
-```bash
+npm install
 npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/user-event
 npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-react
 ```
@@ -76,5 +61,3 @@ npm run format
 ```bash
 npm run lint
 ```
-
-## 📁 Project Structure
